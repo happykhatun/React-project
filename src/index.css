@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1020px;
+  --breakpoint-xl: 1080px;
+}
+
+@utility container {
+  margin: auto;
+}
